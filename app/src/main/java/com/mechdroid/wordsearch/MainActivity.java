@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                     public void run() {
                         restartGameButton.setEnabled(true);
                     }
-                }, 3000);
+                }, 500);
             }
         });
     }
