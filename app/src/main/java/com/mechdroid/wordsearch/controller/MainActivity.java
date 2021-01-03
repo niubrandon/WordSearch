@@ -1,4 +1,4 @@
-package com.mechdroid.wordsearch;
+package com.mechdroid.wordsearch.controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,6 +16,9 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+
+import com.mechdroid.wordsearch.R;
+import com.mechdroid.wordsearch.model.GenerateGame;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -241,6 +244,5 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
     };
-
 
 }
